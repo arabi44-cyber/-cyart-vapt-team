@@ -13,26 +13,26 @@ Tools Used
 
 Steps
 
-Identify target IP using ip a or VirtualBox network details.
+    1. Identify target IP using ip a or VirtualBox network details.
 
-Run basic Nmap scan:
+    2. Run basic Nmap scan:
 
-_`nmap -sV 192.168.0.16`_
+    _`nmap -sV 192.168.0.16`_
 
-Run Nikto web vulnerability scan:
+    3. Run Nikto web vulnerability scan:
 
-`*nikto -h http://192.168.0.16*`
+    *`nikto -h http://192.168.0.16`*
 
-Start OpenVAS services:
+    4. Start OpenVAS services:
 
-`Greenbone Enterpriese trail`
+    *Greenbone Enterpriese trail*
 
-Create target & run a full vulnerability scan in OpenVAS GUI.
+    5. Create target & run a full vulnerability scan in OpenVAS GUI.
 
-Export results: PDF + CSV.
+    6. Export results: PDF + CSV.
 
-Map vulnerabilities to CVSS v4.0 using NVD.
+    7. Map vulnerabilities to CVSS v4.0 using NVD.
 
-Prioritize findings (Critical → Low).
+    8. Prioritize findings (Critical → Low).
 
-Save screenshots + results into Documentation/Scan Reports.
+    9. Save screenshots + results into Documentation/Scan Reports.
