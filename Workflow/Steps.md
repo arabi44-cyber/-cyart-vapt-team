@@ -6,9 +6,7 @@ This document contains the full step-by-step workflow used during Week 2 activit
 Tools Used
 
     -Nmap
-
     -Nikto
-
     -OpenVAS
 
 Steps
