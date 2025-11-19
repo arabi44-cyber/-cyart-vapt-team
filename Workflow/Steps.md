@@ -17,7 +17,7 @@ Identify target IP using ip a or VirtualBox network details.
 
 Run basic Nmap scan:
 
-`*nmap -sV 192.168.0.16* `
+_`nmap -sV 192.168.0.16`_
 
 Run Nikto web vulnerability scan:
 
