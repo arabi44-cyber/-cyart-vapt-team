@@ -1,4 +1,4 @@
-_🔧 Workflow Steps – Week 2 VAPT Cycle_
+#🔧 Workflow Steps – Week 2 VAPT Cycle
 
 This document contains the full step-by-step workflow used during Week 2 activities, including scanning, recon, exploitation, and reporting. All steps follow PTES methodology and use only authorized lab environments (Metasploitable2, DVWA, Kali Linux).
 
@@ -17,21 +17,15 @@ Identify target IP using ip a or VirtualBox network details.
 
 Run basic Nmap scan:
 
-```
-nmap -sV 192.168.0.16
-```
+`*nmap -sV 192.168.0.16* `
 
 Run Nikto web vulnerability scan:
 
-```
-
-nikto -h http://192.168.0.16
-
-```
+`*nikto -h http://192.168.0.16*`
 
 Start OpenVAS services:
 
-sudo gvm-start
+`Greenbone Enterpriese trail`
 
 Create target & run a full vulnerability scan in OpenVAS GUI.
 
