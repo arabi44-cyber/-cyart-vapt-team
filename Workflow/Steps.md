@@ -34,11 +34,11 @@ Steps
 2️⃣ Reconnaissance Workflow
 Tools Used
 
--Shodan
--Maltego
--WHOIS
--Sublist3r
--Wappalyzer
+- Shodan
+- Maltego
+- WHOIS
+- Sublist3r
+- Wappalyzer
 
 Steps
 
@@ -50,14 +50,14 @@ Enumerate subdomains:
 
 _`sublist3r -d graceintlgroup.com`_
 
--Use Shodan (web interface) to identify exposed services.
+- Use Shodan (web interface) to identify exposed services.
 
--Use Maltego to map relationships (domains, emails, IPs).
+- Use Maltego to map relationships (domains, emails, IPs).
 
--Identify tech stack using Wappalyzer browser extension.
+- Identify tech stack using Wappalyzer browser extension.
 
--Sublsit3r is used to find enormous subdomains
+- Sublsit3r is used to find enormous subdomains
 
 - recon findings in are
-  -documentaion on /Documenation/Documenation/Reconnaissance.pdf
+  - documentaion on /Documenation/Documenation/Reconnaissance.pdf
   - screenshots on /Documenation/Screenshots/reco
