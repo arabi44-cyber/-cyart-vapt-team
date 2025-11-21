@@ -145,10 +145,10 @@ Tools Used
 
 Steps
 
-Confirm privileges:
-`whoami`
+1. Confirm privileges:
+   `whoami`
 
-Enumerate system:
+2. Enumerate system:
 
 `systeminfo`
 
@@ -156,33 +156,33 @@ Enumerate system:
 
 `ipconfig /all`
 
-File evidence collection:
+3. File evidence collection:
 
-Copy config files:
-`download *.conf`
+   Copy config files:
+   `download *.conf`
 
-Hash the file:
-`sha256sum *.conf`
+   Hash the file:
+   `sha256sum *.conf`
 
-Privilege Escalation attempt :
+4. Privilege Escalation attempt :
 
 ```
    use exploit/multi/handler
    use exploit/windows/local/bypassuac_fodhelper
 ```
 
-After escalation, run:
-`sysinfo`
-Collect proof.txt (if CTF style) or sensitive logs.
+5. After escalation, run:
+   `sysinfo`
+   Collect proof.txt (if CTF style) or sensitive logs.
 
-Document each action in:
-Documenation/Documenation/Post Expolitation.pdf → Post-Exploitation section
+6. Document each action in:
+   Documenation/Documenation/Post Expolitation.pdf → Post-Exploitation section
 
-Save screenshots in:
-Documentation/Screenshots/Post-Exploitation/
+7. Save screenshots in:
+   Documentation/Screenshots/Post-Exploitation/
 
-Add all evidence hashes to:
-Documenation/Documenation/Post
+8. Add all evidence hashes to:
+   Documenation/Documenation/Post
 
 # 5.Reporting Workflow
 
@@ -198,42 +198,37 @@ Tools Used
 
 Steps
 
-Consolidate all data:
+1. Consolidate all data:
+   Scans (Nmap, Nikto, OpenVAS)
 
-Scans (Nmap, Nikto, OpenVAS)
+2. Recon results
+   Exploitation evidence
 
-Recon results
+3. Hash values
+   Prioritize vulnerabilities by CVSS (Critical → Low).
 
-Exploitation evidence
+4. Write PTES report sections:
 
-Hash values
+   1. Engagement Scope
 
-Prioritize vulnerabilities by CVSS (Critical → Low).
+   2. Methodology
 
-Write PTES report sections:
+   3. Recon Findings
 
-Engagement Scope
+   4. Vulnerability Summary
 
-Methodology
+   5. Exploitation Details
 
-Recon Findings
+   6. Remediation
 
-Vulnerability Summary
+   7. Create two summaries:
+      Recon Summary
+      Non-Technical Summary
 
-Exploitation Details
+5. Export final report to PDF:
+   Documentation/PTES Reports/PTES_Report.pdf
 
-Remediation
-
-Create two summaries:
-
-Recon Summary
-
-Non-Technical Summary
-
-Export final report to PDF:
-Documentation/PTES Reports/PTES_Report.pdf
-
-Update GitHub folder structure as:
+6. Update GitHub folder structure as:
 
 ```
 cyart-vapt-team/
