@@ -1,8 +1,9 @@
-#🔧 Workflow Steps – Week 2 VAPT Cycle
+# 🔧 Workflow Steps – Week 2 VAPT Cycle
 
 This document contains the full step-by-step workflow used during Week 2 activities, including scanning, recon, exploitation, and reporting. All steps follow PTES methodology and use only authorized lab environments (Metasploitable2, DVWA, Kali Linux).
 
-1️⃣ Vulnerability Scanning Workflow
+# 1 Vulnerability Scanning Workflow
+
 Tools Used
 
     -Nmap
@@ -31,7 +32,8 @@ Steps
 8. Prioritize findings (Critical → Low).
 9. Save screenshots + results into Documentation/Scan Reports.
 
-Reconnaissance Workflow
+# 2. Reconnaissance Workflow
+
 Tools Used
 
 - Shodan
@@ -78,7 +80,7 @@ All recon findings documented in:
 
 - 🖼️ Documentation/Screenshots/recon/ (all recon screenshots)
 
-# Exploitation Workflow
+# 3. Exploitation Workflow
 
 Tools Used
 
@@ -126,6 +128,8 @@ Documentation/Screenshots/Exploitation/
 
 Document exploited service & CVE reference in:
 dDcumenation/Exploitation.pdf
+
+# 4.Post-Exploitation Workflow
 
 Tools Used
 
@@ -179,6 +183,8 @@ Documentation/Screenshots/Post-Exploitation/
 
 Add all evidence hashes to:
 Documenation/Documenation/Post
+
+# 5.Reporting Workflow
 
 Tools Used
 
