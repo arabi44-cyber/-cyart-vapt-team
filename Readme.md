@@ -1,0 +1,28 @@
+# CYART VAPT TEAM
+
+This repository contains all documentation, workflows, and labs completed for the **Week 3 VAPT (Vulnerability Assessment & Penetration Testing)** module.
+
+## 📂 Folder Structure
+
+```
+cyart-vapt-team/
+│
+├── Week 3/
+│   ├── Documentation/
+│   │   ├── PDFs/
+│   │   │   ├── Advanced-Exploitation.pdf
+│   │   │   ├── Web-Testing.pdf
+│   │   │   └── Reporting.pdf
+│   │   ├── Notes/
+│   │   │   ├── theory.md
+│   │   │   └── practical.md
+│   │   └── Screenshots/
+│   │       ├── exploitation/
+│   │       ├── web-testing/
+│   │       └── reporting/
+│   ├── Workflow/
+│   │   └── steps.md
+│   └── README.md
+│
+└── README.md
+```
