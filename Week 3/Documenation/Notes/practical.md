@@ -1,4 +1,4 @@
-# Week 3 – VAPT Practical Tasks (Expanded)
+# Week 3 – VAPT Practical Tasks
 
 ---
 
@@ -86,7 +86,7 @@ Burp Suite, SQLMap, OWASP ZAP, Nikto, Nmap Web Scripts
 
 ---
 
-### Findings Table (Expanded)
+### Findings Table
 
 | Finding ID | Vulnerability                           | CVSS Score | Impact Summary                                              | Remediation                                              |
 | ---------- | --------------------------------------- | ---------- | ----------------------------------------------------------- | -------------------------------------------------------- |

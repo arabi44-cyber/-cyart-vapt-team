@@ -1,4 +1,4 @@
-# Week 3 – VAPT Theory Notes (Advanced & Expanded)
+# Week 3 – VAPT Theory Notes
 
 ---
 
@@ -73,7 +73,7 @@ Web bypass examples:
 
 ---
 
-## 1.3 How to Learn (Expanded)
+## 1.3 How to Learn
 
 1. **Exploit-DB**
 
@@ -122,7 +122,7 @@ Web bypass examples:
 
 ---
 
-### 🔹 Testing Techniques (Expanded)
+### 🔹 Testing Techniques
 
 **Manual Testing**
 
@@ -147,7 +147,7 @@ Web bypass examples:
 
 ---
 
-### 🔹 Secure Coding Mitigations (Expanded)
+### 🔹 Secure Coding Mitigations
 
 - Input sanitization + allowlist
 - Prepared statements
@@ -158,7 +158,7 @@ Web bypass examples:
 
 ---
 
-## 2.2 How to Learn (Expanded)
+## 2.2 How to Learn
 
 - **OWASP WSTG** – Follow each category systematically
 - **PortSwigger Academy** – World’s best hands-on web hacking labs

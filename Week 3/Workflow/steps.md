@@ -1,4 +1,4 @@
-# Week 3 Workflow Steps (Detailed)
+# Week 3 Workflow Steps
 
 ---
 
