@@ -5,8 +5,8 @@
 - [ ] Run `ifconfig/ip a` to confirm network connectivity
 - [ ] Scan target using Nmap
 
-  - [ ] `nmap -sC -sV -Pn <target>`
-  - [ ] `nmap --script vuln <target>`
+  - [✓] `nmap -sC -sV -Pn 192.168.0.14`
+  - [✓] `nmap --script vuln 192.168.0.14`
 
 - [ ] Transfer & run LinPEAS on target
 
